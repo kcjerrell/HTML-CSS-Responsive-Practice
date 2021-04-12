@@ -1,15 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Add Google Fonts here-->
-
-    <!--Link your stylesheet here-->
-
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="watering can illustration" />
+            </div>
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#shop">Plants</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="titles">
+            <h1>The Watering Can</h1>
+            <button>Shop Our Indoor Plant Sale</button>
+        </div>
+    </section>
+    <section id="about">
+        <div>
+            <h2>Our Story</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                blanditiis quos repudiandae facilis unde ex harum reprehenderit itaque
+                ab ratione, aperiam libero quasi consectetur accusantium soluta vitae
+                aspernatur magni. Quo?
+            </p>
+        </div>
+    </section>
+    <!-- div.container*2>div.bg-img+div.shopText>div>h3+p+button -->
+    <section id="shop">
+        <div>
+            <h2>Our Plants</h2>
+            <div class="container">
+                <div class="bg-img succulents">
+                    <!--empty-->
+                </div>
+                <div class="shopText">
+                    <div>
+                        <h3>Succulents</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eius fugit dolor,
+                            pariatur quod atque odit, ratione saepe voluptatem molestiae eum error perferendis impedit
+                            soluta cumque quia, culpa nihil minima.</p>
+                        <button>Shop Now!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="shopText">
+                    <div>
+                        <h3>Cacti</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis sed iusto deserunt cumque
+                            impedit labore minima, temporibus, necessitatibus, cupiditate esse ipsam! Itaque unde sequi
+                            alias quae quas, libero voluptate molestias.</p>
+                        <button>Shop Now!</button>
+                    </div>
+                </div>
+                <div class="bg-img cacti"></div>
+            </div>
+            <div class="container">
+                <div class="bg-img tropicals"></div>
+                <div class="shopText">
+                    <div>
+                        <h3>Tropicals</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro adipisci eaque itaque,
+                            sapiente sed omnis eum quod enim fuga veritatis pariatur harum accusantium odit. Velit
+                            molestiae voluptates inventore voluptatum harum.</p>
+                        <button>Shop Now!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="#contact">
+        <h2>Get In Touch!</h2>
+        <div class="left">
+            <div>
+                <h3>Find Us Here:</h3>
+                <address>
+                    123 Plant Lane<br>
+                    Bloomfield, Ontario<br>
+                    Canada L2G 0X7<br>
+                    <a href="tel:1-613-978-8282">+1-613-978-8282</a><br>
+                    <a href="mailto:info@thewateringcan.ca">info@thewateringcan.ca</a><br>
+                    <p>@thewateringcan on the socials</p>
+                </address>
+            </div>
+        </div>
+        <div>
+            <img src="images/shop.jpg" alt="A photo of the inside of our retail space">
+        </div>
+    </footer>
 </body>
 </html>
